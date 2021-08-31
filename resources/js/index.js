@@ -4,21 +4,14 @@
 
 //메인 슬라이드
 $(function () {
-    $('.slide-bar .owl-carousel').owlCarousel({
+    var visualSlide = new Swiper('.visual-slide .swiper-container', {
         loop: true,
-        nav: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    });
+        pagination: {
+            el: ".visual-slide .visual-pagination",
+            bulletClass: 'visaul-bullet',
+            bulletActiveClass : 'bullet-active',
+          },
+    })
 });
 
 //content-1 행복소식
@@ -39,20 +32,37 @@ $(function () {
     TabBox__init();
 })
 
+
+
 //content-2-2 알림
+// $(function () {
+//     var swiper = new Swiper('.content-2-2 .swiper-container', {
+//         pagination: {
+//           el: '.swiper-pagination',
+//         },
+//         navigation: {
+//             nextEl: '.swiper-button-next',
+//             prevEl: '.swiper-button-prev',
+//         },
+//         slidesPerView: 2,
+//         loop: true
+//     });
+// });
+
 $(function () {
-    var swiper = new Swiper('.content-2-2 .swiper-container', {
-        pagination: {
-          el: '.swiper-pagination',
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+    var visualSlide = new Swiper('.post-slide .swiper-container', {
+        loop: true,
         slidesPerView: 2,
-          loop: true
-      });
+        pagination: {
+            el: ".post-slide .post-pagination",
+            bulletClass: 'post-bullet',
+            bulletActiveClass : 'bullet-active',
+          },
+    })
 });
+
+
+
 
 //content-5 사진
 $(function () {
