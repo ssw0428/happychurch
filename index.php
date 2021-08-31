@@ -30,7 +30,7 @@
 </head>
 
 <body>
-    <header class="header-main-menu flex">
+    <header id="header" class="header-main-menu flex">
         <div class="inner con flex flex-1-0-0">
             <h1 class="logo flex height-100p">
                 <a href="" class="logo-img flex flex-ai-c height-100p">
@@ -67,16 +67,13 @@
             <div class="sns-icon-box flex height-100p">
                 <div class="inner flex flex-ai-c height-100p">
                     <div class="icon icon-1">
-                        icon-1
-                        <img src="" alt="">
+                        <img src="resources/images/youtube-icon-w.png" alt="">
                     </div>
                     <div class="icon icon-2">
-                        icon-2
-                        <img src="" alt="">
+                        <img src="resources/images/insta-icon-w.png" alt="">
                     </div>
                     <div class="icon icon-3">
-                        icon-3
-                        <img src="" alt="">
+                        <img src="resources/images/facebook-icon-w.png" alt="">
                     </div>
                 </div>
             </div>
@@ -703,6 +700,24 @@
         </section>
     </div>
 
+    <footer id="footer">
+        <div class="inner con flex">
+            <div class="address">
+                <span>충청북도 옥천군 군북면 증약길 191-5 (우) 29001</span>
+                <span>TEL. 043-123-1234</span>
+                <span>© COPYRIGHTS 1998 행복한교회 ALL RIGHTS RESERVED.</span>
+            </div>
+            <div class="icon">
+                <!-- <a href="">
+                    <img src="resources/images/youtube-icon-w.png" alt="">
+                    <img src="resources/images/insta-icon-w.png" alt="">
+                    <img src="resources/images/facebook-icon-w.png" alt="">
+                </a> -->
+            </div>
+        </div>
+    </footer>
+
+
 
 
 
@@ -711,92 +726,8 @@
     <!--컨텐츠-3 3분메세지-->
     <!--컨텐츠-4 말씀과 찬양-->
     <!--컨텐츠-5 사진-->
-    <div class="content-5 con">
-        <!-- Swiper -->
-        <div class="swiper-box con">
-            <div class="gallery-box">
-                <div class="box">
-                    <div class="text-box">
-                        <p class="text-1">
-                            <span>PHOTO</span>
-                            <i class="line1"></i>
-                        </p>
-                        <p class="text-2">
-                            <span>GALLERY</span>
-                        </p>
-                    </div>
-                    <h3>포토갤러리</h3>
-                    <p class="text-3">한국공예관의 다양한 모습을 사진을 만나보세요.</p>
-                    <div class="slide-arrows">
-                        <div class="swiper-button swiper-button-prev"></div>
-                        <div class="swiper-button swiper-button-next"></div>
-                    </div>
-                </div>
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="img-box"
-                                style="background-image:url('resources/images/ex-8.jpg')">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="img-box"
-                                style="background-image:url('resources/images/ex-7.jpg')">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="img-box"
-                                style="background-image:url('resources/images/ex-6.jpg')">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="img-box"
-                                style="background-image:url('resources/images/ex-5.jpg')">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="img-box"
-                                style="background-image:url('resources/images/ex-4.jpg')">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="img-box"
-                                style="background-image:url('resources/images/ex-3.jpg')">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="img-box"
-                                style="background-image:url('resources/images/ex-2.jpg')">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="img-box"
-                                style="background-image:url('resources/images/ex-1.jpg')">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!--footer-->
-    <div class="footer">
-        <div class="inner con flex">
-            <div class="address">
-                <span>충청북도 옥천군 군북면 증약길 191-5 (우) 29001</span>
-                <span>TEL. 043-123-1234</span>
-                <span>© COPYRIGHTS 1998 행복한교회 ALL RIGHTS RESERVED.</span>
-            </div>
-            <div class="icon">
-                <a href="">
-                    <img src="resources/images/youtube-icon-w.png" alt="">
-                    <img src="resources/images/insta-icon-w.png" alt="">
-                    <img src="resources/images/facebook-icon-w.png" alt="">
-                </a>
-            </div>
-        </div>
-    </div>
+    
 </body>
 
 </html>

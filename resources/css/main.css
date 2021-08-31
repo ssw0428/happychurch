@@ -1,5 +1,4 @@
 /* 메인에 들어가는 컨텐츠들의 css는 모두 여기에 */
-
 .header-main-menu {height: 100px; border-bottom: 1px solid rgb(204, 204, 204);}
 .header-main-menu .inner {}
 
@@ -17,6 +16,10 @@
 
 .header-main-menu .inner .main-menu-bar > ul > .small-dot {height: 1px; margin: 47px 40px; border: 2px solid rgb(179, 179, 179); background-color: rgb(179, 179, 179);}
 
+.header-main-menu .inner .sns-icon-box {}
+.header-main-menu .inner .sns-icon-box .inner {}
+.header-main-menu .inner .sns-icon-box .inner .icon:not(:nth-child(3)) {margin-right: 40px;}
+.header-main-menu .inner .sns-icon-box .inner .icon > img {width: 20px;}
 /* visual-slider */
 .con-area {max-width: 1600px; margin: 0 auto;}
 @media screen and (max-width: 1600px){
@@ -145,7 +148,7 @@
 #container .content-4 .list-1 > ul > li > .list-box > .title-box > .date {display: block; margin-left: 20px; margin-bottom: 20px; font-size: 15px; color: teal;}
 
 #container .content-4 .list-2 {}
-#container .content-4 .list-2 > ul {}
+#container .content-4 .list-2 > ul {margin-top: 60px;}
 #container .content-4 .list-2 > ul > li:not(:nth-child(4)) {margin-right: 53px;}
 #container .content-4 .list-2 > ul > li > .list-box {}
 #container .content-4 .list-2 > ul > li > .list-box > img {display: block;}
@@ -154,4 +157,36 @@
 #container .content-4 .list-2 > ul > li > .list-box > .title-box > .title {display: block; margin: 10px 0; margin-left: 20px; font-size: 18px; font-weight: 700;}
 #container .content-4 .list-2 > ul > li > .list-box > .title-box > .date {display: block; margin-left: 20px; margin-bottom: 20px; font-size: 15px; color: teal;}
 
-#container .content-5 .swiper-box
+#container .content-5 {}
+#container .content-5 .swiper-box {margin-top: 200px;}
+#container .content-5 .swiper-box .gallery-box { position: relative; padding: 0 0 180px 0;}
+#container .content-5 .swiper-box .gallery-box > .box {position: absolute; top: 0; left: 25%; width: 25%; z-index: 100; background: url(https://ssw0428.github.io/img1/pf/happy/bg_gal.gif) no-repeat center; background-size: 400px 600px;}
+#container .content-5 .swiper-box .gallery-box > .box > .text-box {position: relative; margin: 50px 0; padding-top: 120px;}
+#container .content-5 .swiper-box .gallery-box > .box > .text-box .text-1 {position: relative; color: #2a2a2a; letter-spacing: 0.5em; z-index: 2000;}
+#container .content-5 .swiper-box .gallery-box > .box > .text-box .text-1 > span {position: relative; font-size: 60px; z-index: 2000;}
+#container .content-5 .swiper-box .gallery-box > .box > .text-box .text-1 > .line1 {display: block; position: absolute; top: 0; left: 0; width: 269px; height: 48px; z-index: 1000; background-color: #2bf8c9;}
+#container .content-5 .swiper-box .gallery-box > .box > .text-box .text-2 {position: relative; font-family: 'GmarketSansBold'; color: #2a2a2a; font-size: 50px; letter-spacing: 0.5em; z-index: 2000;}
+
+#container .content-5 .swiper-box .gallery-box > .box > h3 {font-size: 32px; color: #2a2a2a;}
+
+#container .content-5 .swiper-box .gallery-box > .swiper-container {width: 100%; height: 100%; height: 600px;}
+#container .content-5 .swiper-box .gallery-box > .swiper-container .swiper-slide {text-align: center; font-size: 18px; transition: transform 1s;}
+#container .content-5 .swiper-box .gallery-box > .swiper-container .swiper-slide .img-box {background-repeat: no-repeat; background-size: cover; background-position: center;}
+/* #container .content-5 .swiper-box .gallery-box > .swiper-container .swiper-slide::before { content:""; display: block; padding-bottom: 100%;} */
+#container .content-5 .swiper-box .gallery-box > .swiper-container .swiper-slide > img {display: none;}
+#container .content-5 .down-ani { transform:translateY(100px);}
+#container .content-5 .swiper-box .slide-arrows .swiper-button { outline: none; border: 10px solid red; height: 20%;}
+
+.content-5 .swiper-slide .img-box::before {
+    content:"";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+#footer {height: 260px; background-color: #0f112c; margin-top: 70px;}
+#footer .inner {}
+#footer .inner .address {}
+#footer .inner .address > span {display: block; color: white;}
+#footer .inner .address > span:nth-child(1) {padding-top: 65px;}
+#footer .inner .address > span:nth-child(2) {padding-top: 14px;}
+#footer .inner .address > span:nth-child(3) {display: inline-block; padding-top: 70px;}
