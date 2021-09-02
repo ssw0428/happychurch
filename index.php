@@ -1,5 +1,5 @@
 <?php
-include "/part/head.php";
+include "/resources/include/head.php";
 ?>
 
     <div id="container">
@@ -10,7 +10,7 @@ include "/part/head.php";
                         <div class="swiper-slide">
                             <div class="visual-item">
                                 <div class="img-wrap">
-                                    <img src="resources/images/홈페이지 메인 슬라이드 사진.jpg" alt="">
+                                    <img src="/resources/images/홈페이지 메인 슬라이드 사진.jpg" alt="">
                                 </div>
                                 <div class="v-box">
                                     <div class="con-area">
@@ -623,7 +623,7 @@ include "/part/head.php";
     </div>
 
 <?php
-include "/part/foot.php";
+include "/resources/include/foot.php";
 ?>
 
 

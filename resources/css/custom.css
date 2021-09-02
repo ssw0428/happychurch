@@ -1,0 +1,9 @@
+#sub-container {}
+#sub-container .sub-title-box {}
+#sub-container .sub-title-box .sub-title {border: 1px solid red; text-align: center; font-size: 60px; font-weight: 600; letter-spacing: -5px;}
+#sub-container .sub-title-box .sub-menu-bar {}
+#sub-container .sub-title-box .sub-menu-bar > ul {border: 1px solid red;}
+#sub-container .sub-title-box .sub-menu-bar > ul > li {}
+#sub-container .sub-title-box .sub-menu-bar > ul > li:not(:nth-child(5)) {margin-right: 30px;}
+#sub-container .sub-title-box .sub-menu-bar > ul > li .sub-menu-title {padding: 10px 0; font-size: 15px; font-weight: 600; color: rgb(83, 83, 83);}
+#sub-container .sub-title-box .sub-menu-bar > ul > li:hover .sub-menu-title {color: black;}

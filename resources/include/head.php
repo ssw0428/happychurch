@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>행복한교회</title>
 
-    <link rel="stylesheet" href="resources/css/main.css">
-    <link rel="stylesheet" href="resources/css/common.css">
-    <link rel="stylesheet" href="resources/css/index.css">
-    <link rel="stylesheet" href="resources/css/media.css">
+    <link rel="stylesheet" href="/resources/css/main.css">
+    <link rel="stylesheet" href="/resources/css/common.css">
+    <link rel="stylesheet" href="/resources/css/index.css">
+    <link rel="stylesheet" href="/resources/css/custom.css">
+    <link rel="stylesheet" href="/resources/css/layout.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -35,13 +37,13 @@
         <div class="inner con flex flex-1-0-0">
             <h1 class="logo flex height-100p">
                 <a href="" class="logo-img flex flex-ai-c height-100p">
-                    <img src="resources/images/logo.png" alt="">
+                    <img src="/resources/images/logo.png" alt="">
                 </a>
             </h1>
             <nav class="main-menu-bar flex flex-1-0-0 flex-jc-c">
                 <ul class="flex height-100p flex-1-0-0 flex-jc-c">
                     <li>
-                        <a href="" class="flex flex-ai-c height-100p">교회소개</a>
+                        <a href="http://happychurch.com:3301/resources/pages/sub01.php" class="flex flex-ai-c height-100p">교회소개</a>
                     </li>
                     <div class="small-dot flex flex-ai-c height-100p"></div>
                     <li>
