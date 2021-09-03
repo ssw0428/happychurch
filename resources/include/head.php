@@ -28,7 +28,10 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
 
-    <script src="resources/js/index.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=구글지오코딩키&libraries=places"></script>
+
+    <script src="/resources/js/index.js"></script>
+    <script src="/resources/js/custom.js"></script>
 
 </head>
 

@@ -1,9 +1,121 @@
 #sub-container {}
-#sub-container .sub-title-box {}
-#sub-container .sub-title-box .sub-title {border: 1px solid red; text-align: center; font-size: 60px; font-weight: 600; letter-spacing: -5px;}
+#sub-container .sub-title-box {position: relative; }
+#sub-container .sub-title-box .sub-title {text-align: center; font-size: 60px; font-weight: 600; letter-spacing: -5px;}
+#sub-container .sub-title-box .img-box {position: absolute; top: 25%; left: 50%; transform: translate(-50%, -50%); width: 16%;}
+
 #sub-container .sub-title-box .sub-menu-bar {}
-#sub-container .sub-title-box .sub-menu-bar > ul {border: 1px solid red;}
+#sub-container .sub-title-box .sub-menu-bar > ul {margin-top: 40px;}
 #sub-container .sub-title-box .sub-menu-bar > ul > li {}
 #sub-container .sub-title-box .sub-menu-bar > ul > li:not(:nth-child(5)) {margin-right: 30px;}
 #sub-container .sub-title-box .sub-menu-bar > ul > li .sub-menu-title {padding: 10px 0; font-size: 15px; font-weight: 600; color: rgb(83, 83, 83);}
 #sub-container .sub-title-box .sub-menu-bar > ul > li:hover .sub-menu-title {color: black;}
+
+#sub-container .background-img-boxs {position: relative; margin-top: 30px;}
+#sub-container .background-img-boxs  > img {width:100%;}
+#sub-container .background-img-boxs  > .background-img-title {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+#sub-container .background-img-boxs  > .background-img-title .title {display: block; color: white; font-size: 45px; font-weight: 500;}
+
+#sub-container .sub01-part01 {position: relative; margin-top: 100px; border: 1px solid #b7b7b7; border-radius: 20px;}
+#sub-container .sub01-part01 .part01-title-box {position: absolute; top:-5%; display: inline-block; padding: 0 10px; margin-left: 50px; background-color: white;}
+#sub-container .sub01-part01 .part01-title-box .title {display: block;}
+#sub-container .sub01-part01 .part01-title-box .title:nth-child(1) {text-align: right; font-size: 30px; line-height: 10px;}
+#sub-container .sub01-part01 .part01-title-box .title:nth-child(2) {font-size: 35px; font-weight: 600;}
+
+#sub-container .sub01-part01 .part01-content-box {margin: 120px 55px; margin-right: 100px;}
+#sub-container .sub01-part01 .part01-content-box > ul {}
+#sub-container .sub01-part01 .part01-content-box > ul > li {}
+#sub-container .sub01-part01 .part01-content-box > ul > li:not(:nth-child(4)) {margin-bottom: 40px;}
+#sub-container .sub01-part01 .part01-content-box > ul > li > span {display: block;}
+#sub-container .sub01-part01 .part01-content-box > ul > li .title {font-size: 35px; font-weight: 700; color:#217b01;}
+#sub-container .sub01-part01 .part01-content-box > ul > li .word {margin-top: 8px; font-size: 20px; font-weight: 400; color:#2b2b2b;}
+
+#sub-container .sub01-part02 {position: relative; margin-top: 100px; }
+#sub-container .sub01-part02 .part02-title-box {position: absolute; top:-5%; display: inline-block; padding: 0 10px; margin-left: 50px;}
+#sub-container .sub01-part02 .part02-title-box .title {display: block;}
+#sub-container .sub01-part02 .part02-title-box .title:nth-child(1) {text-align: right; font-size: 30px; line-height: 10px;}
+#sub-container .sub01-part02 .part02-title-box .title:nth-child(2) {font-size: 35px; font-weight: 600;}
+
+#sub-container table {
+    border-collapse: collapse;
+    border-radius: 10px !important;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px #b7b7b7; /* this draws the table border  */ 
+    width: 100%;
+    height: 700px;    
+}
+td:nth-child(2) {
+}
+
+tr:first-child td:first-child{
+    border-top-left-radius: 10px;
+  }
+  /*第一欄最後列：左下*/
+  tr:last-child td:first-child{
+    border-bottom-left-radius: 10px;
+  }
+  /*最後欄第一列：右上*/
+  tr:first-child td:last-child{
+    border-top-right-radius: 10px;
+  }
+  /*最後欄第一列：右下*/
+  tr:last-child td:last-child{
+    border-bottom-right-radius: 10px;
+  }
+
+#sub-container .sub01-part02 .time-table {}
+#sub-container .sub01-part02 .time-table .inner-box {margin:0 -10px;}
+#sub-container .sub01-part02 .time-table .inner-box .box {border: 5px solid pink; width:33.3333%; height: 100%; box-sizing: border-box; margin-top: 20px;}
+#sub-container .sub01-part02 .time-table .inner-box .box > .tab-type-1 {height: 100%; border: 10px solid orange; margin-right: auto;}
+
+#sub-container .sub01-part02 .time-table .inner-box .box > .tab-type-1 > .head {}
+#sub-container .sub01-part02 .time-table .inner-box .box > .tab-type-1 > .head > ul {}
+#sub-container .sub01-part02 .time-table .inner-box .box > .tab-type-1 > .head > ul > li {}
+#sub-container .sub01-part02 .time-table .inner-box .box > .tab-type-1 > .head > ul > li > a {display: flex; align-items: center; justify-content:center; height:30px; border:1px solid #d6e2e5; border-bottom-color:#005bac; cursor:pointer; border-right-width:0;}
+#sub-container .sub01-part02 .time-table .inner-box .box > .tab-type-1 > .head > ul > li:last-child > a {border-right-width: 1px;}
+#sub-container .sub01-part02 .time-table .inner-box .box > .tab-type-1 > .head > ul > li.active > a {color: pink; border-color: #005bac; background-color:#ecf4fc; border-bottom-color:transparent;}
+#sub-container .sub01-part02 .time-table .inner-box .box > .tab-type-1 > .head > ul > li.active + li > a {border-left-color:#005bac;}
+
+#sub-container .sub01-part02 .time-table .inner-box .box > .tab-type-1 > .body {}
+#sub-container .sub01-part02 .time-table .inner-box .box > .tab-type-1 > .body > ul {}
+#sub-container .sub01-part02 .time-table .inner-box .box > .tab-type-1 > .body > ul > li {display: none;}
+#sub-container .sub01-part02 .time-table .inner-box .box > .tab-type-1 > .body > ul > li.active {display: block;}
+
+.tab-type-1 > .body > ul > li > div {
+  
+  width: 1600px;
+  height: 50px;
+  border: 1px solid red;
+}
+
+
+
+
+ul.tabs{
+	margin: 0px;
+    text-align:right;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
