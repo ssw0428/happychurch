@@ -8,7 +8,7 @@ include_once ($_SERVER['DOCUMENT_ROOT']."/resources/include/head.php");
             <img src="/resources/images/paster.jpg" alt="">
         </div>
         <div class="text-box">
-            <span class="text">표재근 목사</span>
+            <span class="name">표재근 담임목사</span>
         </div>
     </div>
 
@@ -56,9 +56,120 @@ include_once ($_SERVER['DOCUMENT_ROOT']."/resources/include/head.php");
         <div class="title-box">
             <span class="title">저서 소개</span>
         </div>
-        <div class="word-box">
-            
-        </div>
+        <section class="book-box flex">
+            <ul class="book-box-01">
+                <li>
+                    <div href="" class="book-list">
+                        <img src="/resources/images/book01.jpg" alt="">
+                        <div class="text-box">
+                            <span class="title"></span>
+                            <span class="content"></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="book-list">
+                        <img src="/resources/images/book01.jpg" alt="">
+                        <div class="text-box">
+                            <span class="title"></span>
+                            <span class="content"></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="book-list">
+                        <img src="/resources/images/book01.jpg" alt="">
+                        <div class="text-box">
+                            <span class="title"></span>
+                            <span class="content"></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="book-list">
+                        <img src="/resources/images/book01.jpg" alt="">
+                        <div class="text-box">
+                            <span class="title"></span>
+                            <span class="content"></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="book-list">
+                        <img src="/resources/images/book01.jpg" alt="">
+                        <div class="text-box">
+                            <span class="title"></span>
+                            <span class="content"></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="book-list">
+                        <img src="/resources/images/book01.jpg" alt="">
+                        <div class="text-box">
+                            <span class="title"></span>
+                            <span class="content"></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="book-box-02">
+                <li>
+                    <div href="" class="book-list">
+                        <img src="/resources/images/book01.jpg" alt="">
+                        <div class="text-box">
+                            <span class="title"></span>
+                            <span class="content"></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="book-list">
+                        <img src="/resources/images/book01.jpg" alt="">
+                        <div class="text-box">
+                            <span class="title"></span>
+                            <span class="content"></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="book-list">
+                        <img src="/resources/images/book01.jpg" alt="">
+                        <div class="text-box">
+                            <span class="title"></span>
+                            <span class="content"></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="book-list">
+                        <img src="/resources/images/book01.jpg" alt="">
+                        <div class="text-box">
+                            <span class="title"></span>
+                            <span class="content"></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="book-list">
+                        <img src="/resources/images/book01.jpg" alt="">
+                        <div class="text-box">
+                            <span class="title"></span>
+                            <span class="content"></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="book-list">
+                        <img src="/resources/images/book01.jpg" alt="">
+                        <div class="text-box">
+                            <span class="title"></span>
+                            <span class="content"></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
     </div>
 </section>
 
